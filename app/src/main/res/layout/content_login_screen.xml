@@ -5,17 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_login_screen">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:background="@color/trojanRed"
+        android:textColor="@color/trojanGold"
+        android:layout_marginBottom="60dp"
         android:text="@string/courseTitle" />
 
     <EditText android:id="@+id/userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:hint="@string/userName" />
 
     <TextView android:id="@+id/userNameErrorMessage"
@@ -30,9 +38,22 @@
         android:text="@string/submitUserName"
         android:onClick="validateUserName"/>
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="40dp"
-        android:src="@drawable/usclogo"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.timferrell.sampleapp579.DisplayClassInformation"
+        tools:showIn="@layout/activity_display_class_information">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/usclogo"/>
+
+    </LinearLayout>
 
 </LinearLayout>

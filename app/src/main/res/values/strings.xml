@@ -10,6 +10,6 @@
     <string name="teamInfoButton">Team 1 Info</string>
     <string name="instructorInfo">Instructor Name: Bhaskar Krishnamachari\nEmail:\tbkrishna@usc.edu</string>
     <string name="taInfo">TA Name: Pradipta Ghosh\nEmail: \tpradiptag@usc.edu</string>
-    <string name="teamInfo">Team Member Names:\tTim Ferrell\t\tLeo Linsky\nTeam Member Emails:\ttferrell@usc.edu\t\tllinsky@usc.edu</string>
+    <string name="teamInfo">Team Members:\tTim Ferrell\t\tLeo Linsky\nTeam Emails:\ttferrell@usc.edu\t\tllinsky@usc.edu</string>
     <string name="userNameErrorMessage">Invalid Username. Please Try Again.</string>
 </resources>
