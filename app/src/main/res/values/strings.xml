@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Course Information Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="userName">Enter Your Username</string>
+    <string name="submitUserName">Submit</string>
+    <string name="courseTitle">EE579 Spring 2016</string>
+    <string name="title_activity_display_class_information">Class Information</string>
+    <string name="instructorInfoButton">Instructor Info</string>
+    <string name="taInfoButton">TA Info</string>
+    <string name="teamInfoButton">Team 1 Info</string>
+    <string name="instructorInfo">Instructor Name: Bhaskar Krishnamachari\nEmail:\tbkrishna@usc.edu</string>
+    <string name="taInfo">TA Name: Pradipta Ghosh\nEmail: \tpradiptag@usc.edu</string>
+    <string name="teamInfo">Team Member Names:\tTim Ferrell\t\tLeo Linsky\nTeam Member Emails:\ttferrell@usc.edu\t\tllinsky@usc.edu</string>
+    <string name="userNameErrorMessage">Invalid Username. Please Try Again.</string>
+</resources>
